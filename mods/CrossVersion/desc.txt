@@ -1,0 +1,3 @@
+What is it:
+Native mod to hold over until rewritten, with some bug fixes baked into the mod to fix some issues horizon has with ViaProxy.  Spins up a JVM to run ViaProxy as a shim between horizon and the server.
+ (https://github.com/JustKarkat/horizon-crossversion) 

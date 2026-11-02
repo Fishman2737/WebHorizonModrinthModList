@@ -1,0 +1,4 @@
+What it is:
+Horizon version: 26.3
+Allows downloading resource packs from modrinth without leaving the game
+Link: https://github.com/tariksabanuz/ResourcifyHorizon 
