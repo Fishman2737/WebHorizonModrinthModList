@@ -1,0 +1,10 @@
+What is it: 
+A client-side Horizon mod that adds fully customizable in-game waypoints,
+a world map viewer, 
+tracking, 
+and telemetry features with a clean customizable HUD overlay
+(defaulted to the top-right corner).
+
+https://youtu.be/jYQsJsVF6aw
+
+NOT RELEASED YET WILL BE ADDED WHEN IT IS
