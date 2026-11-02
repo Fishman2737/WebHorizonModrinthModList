@@ -1,4 +1,4 @@
-#What it is: Horizon Sodium, 
+What it is: Horizon Sodium, 
 a UI improvement mod for Horizon with slight culling improvements and quality-of-life features. 
 It doesn't significantly improve FPS Due to Horizon already being really well coded + it isnt java so sodium wouldnt really optimize anything because rust is way faster.
 
