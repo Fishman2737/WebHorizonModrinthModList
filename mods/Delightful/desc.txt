@@ -1,0 +1,7 @@
+A food and farming mod for the Horizon Minecraft client, 
+in the spirit of Farmer's Delight: a cooking pot, a cutting board, crops you grow and find wild, feasts, pies, placeable dishes and plenty of storage.
+DEPENDENCIES: 
+https://github.com/realblobii/cookpot
+https://github.com/realblobii/roast
+  
+  ( MUST BUILD YOURSELF )
