@@ -1,0 +1,10 @@
+current poll:
+1: test
+2: test 
+
+timer: 30
+
+
+# DONT MAKE IT READ ANY MESSAGES WITH # BEFORE THEM
+# the timer is how long the poll should stay alive, 30 is 30 minutes, 1/30 is 1 day 30 minutes and 1/6/30 is 1 day 6 hours and 30 minutes.
+# 1: and 2: are the options it should be easily expandable just by adding more
