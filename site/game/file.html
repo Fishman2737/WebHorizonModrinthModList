@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <title>Horizon 26.3 Beta</title>
 
     <style>
         * {
@@ -15,27 +13,105 @@
             box-sizing: border-box;
         }
 
-        body {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #808080;
-            font-family: 'Montserrat', sans-serif;
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
         }
 
-        h1 {
-            color: white;
-            font-size: clamp(28px, 6vw, 65px);
-            font-weight: 800;
-            letter-spacing: 3px;
+        /* Warning Screen */
+        #warning-screen {
+            width: 100%;
+            height: 100%;
+            background-color: #808080;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            text-shadow: 2px 3px 8px rgba(0,0,0,0.25);
+            padding: 20px;
+            color: white;
+        }
+
+        #warning-text {
+            font-size: 28px;
+            font-weight: bold;
+            max-width: 850px;
+            margin-bottom: 25px;
+        }
+
+        #countdown {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #skip-button {
+            padding: 12px 28px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        #skip-button:hover {
+            background-color: #222;
+        }
+
+        /* Website iframe */
+        #website {
+            display: none;
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 
 <body>
-    <h1>NOT FINISHED - COMING SOON</h1>
+
+    <div id="warning-screen">
+        <div id="warning-text">
+            THIS IS NOT OUR RELEASE IT IS SIMPLY TO LET PEOPLE PLAY A BUGGIER RELEASE TILL WE RELEASE OURS
+        </div>
+
+        <div id="countdown">10</div>
+
+        <button id="skip-button" onclick="openWebsite()">
+            Skip Timer
+        </button>
+    </div>
+
+    <iframe
+        id="website"
+        src="https://web.carrot-craft.org/horizon-26-3-beta/"
+        allowfullscreen>
+    </iframe>
+
+    <script>
+        let timeLeft = 10;
+        const countdown = document.getElementById("countdown");
+
+        const timer = setInterval(() => {
+            timeLeft--;
+            countdown.textContent = timeLeft;
+
+            if (timeLeft <= 0) {
+                openWebsite();
+            }
+        }, 1000);
+
+        function openWebsite() {
+            clearInterval(timer);
+
+            document.getElementById("warning-screen").style.display = "none";
+            document.getElementById("website").style.display = "block";
+        }
+    </script>
+
 </body>
 </html>
