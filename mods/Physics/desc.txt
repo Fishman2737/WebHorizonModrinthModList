@@ -1,0 +1,5 @@
+What it is:
+Horizon version: 26.3
+Gives Items Physics.
+Link: 
+https://github.com/tariksabanuz/PhysicsModHorizon

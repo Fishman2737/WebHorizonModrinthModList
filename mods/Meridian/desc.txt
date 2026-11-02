@@ -1,0 +1,14 @@
+What it is:
+Meridian, a shader pack in Horizon's own format (WGSL, shader API 0.1).
+• Shadow-mapped sun: trees, mobs and the player (first person too) cast soft shadows, whichever way you look
+• Clear water: see the bottom, waves, refraction, caustics, shore foam, reflections of the world
+• Coloured block light (soul fire blue, redstone red, amethyst violet), light through leaves, wet ground in the rain, ambient occlusion, LabPBR maps
+• Scattered sky, high clouds, stars, Milky Way, aurora over cold biomes; underwater / Nether / End atmospheres
+• Bloom, depth of field, motion blur, eye adaptation, filmic tone map, TAA
+• One-click Quality preset (Low → Ultra) + 58 options on Horizon's Shader Options screen
+
+Install: drop the .hshader into your shaderpacks folder → Options → Horizon Settings → Shader Packs → Meridian.
+
+Horizon version: Nightly 2026-11-01 (c9d474d) or later. A compat pack for 0.2.97 (fewer effects) is in the same release.
+
+https://github.com/Perdume/meridian-shaders/releases/tag/v26.3.1 
