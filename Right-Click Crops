@@ -1,0 +1,18 @@
+What it is: Hey! I made Right-Click Crops for Horizon 🌱
+
+Harvest 16 plant families with a right-click: wheat, carrots, potatoes, beetroot, nether wart, cocoa, torchflower, pitcher crop, sugar cane, cactus, bamboo, kelp, twisting vines, weeping vines, pumpkins and melons!
+
+Crops replant using an item from the harvest or your inventory. Tall plants keep their base, and pumpkin and melon stems stay put — harvest, move on, let it grow again. You can turn each plant on or off in the settings.
+
+Works in single-player and LAN. Available on GitHub now, with addition to Horizon’s native mod catalog in progress!
+
+🎬 Demo:
+https://youtu.be/kll-qvj5s54
+
+📦 Repo:
+https://github.com/AyanoKaito/horizon-right-click-crops
+
+🌾 Harvesting guide:
+https://github.com/AyanoKaito/horizon-right-click-crops/blob/main/docs/harvesting.md
+
+Horizon version: Nightly 2026-10-31 (9d979ca), Minecraft 26.3 💖 
