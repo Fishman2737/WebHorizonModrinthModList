@@ -1,0 +1,6 @@
+What it is: A port of the 3D Skin Layers mod to Horizon. It adds 3D depth to Minecraft skins, making the outer skin layers appear as actual 3D models instead of flat textures.
+
+Features:
+3D rendering for player skin layers
+Adds depth to hats, jackets, sleeves and trousers
+Improves the appearance of player skins
