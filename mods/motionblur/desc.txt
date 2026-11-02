@@ -1,0 +1,3 @@
+Blurs what moves: mobs, players, items and vehicles along their own motion, with optional camera blur.
+
+(NOT THE ORIGINAL ICON THEY DID NOT PROVIDE ONE I COULD FIND)
