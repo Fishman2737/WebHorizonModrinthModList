@@ -1,0 +1,16 @@
+A native Horizon mod: the launcher builds it into the game (install it on the launcher's Mods page, then press Build there). Native mods are not sandboxed and run with your account's rights, so read the source before you build it. Pinned to Horizon 142388e and horizon-mixins 0d6b103.
+
+Every enchantment on books and gear gets a one-line description in its tooltip: what it does, in plain words. Our own text for every 26.3 enchantment, in English and Russian.
+
+Always, or only while Shift is held (with a reminder line).
+Colour and line width are settings.
+Settings: Options → Mods → Enchantment Hints. Inspired by Enchantment Descriptions; not affiliated, no code or text from it.
+
+Native code
+A native mod is Rust code that the launcher compiles into a game of its own, the Native mods instance. It is not sandboxed: it can do anything you can on this computer. The launcher builds it only after a warning that names it, and a reviewer read its source before it was listed. Read the source yourself before you build it. How native mods work
+
+Versions
+0.1.0
+2026-10-29 · for Minecraft 26.3 · made on Horizon 142388e
+
+First release.
