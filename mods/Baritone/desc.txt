@@ -1,0 +1,8 @@
+What it is:
+This project is a port to Rust of Baritone by leijurv and the Baritone contributors
+(https://github.com/cabaletta/baritone), 
+Horizon version: nighly-2026-11-01-c9d474d
+
+Still on progress, so just wait it https://github.com/luhnox/horizon-baritone
+Ported: 68 Feature
+All Feature: 297 
