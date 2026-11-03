@@ -1,0 +1,26 @@
+🪓 WorldEdit for Horizon (Rust Engine)
+WorldEdit_Horizon is a native mod (.hnmod) designed for the Horizon Minecraft client. It brings the essential and powerful toolkit of WorldEdit straight into the game, allowing you to build, shape, and edit worlds efficiently. 
+
+With its core logic built entirely in Rust, this mod delivers high-performance block manipulation directly within the client.
+
+⚠ Note: All commands start with /we and function exclusively in Creative Mode (/gamemode creative).
+
+---
+
+✨ Features
+🔧 Selection & Block Editing
+Wooden Axe Wand (/we wand) — Left-click to set Position 1, right-click to set Position 2. Acts as a standard axe outside of creative mode.
+Core Operations — Instantly fill (set), replace specific blocks (replace), generate walls (walls), or create hollow shells (faces, hollow).
+Advanced Drawing — Connect points with a straight line (line) or apply a top-layer mask over existing terrain (overlay).
+Pattern Support — Mix block ratios on the fly (e.g., stone,dirt or specific percentages like 30%stone,dirt).
+
+⚪ Geometric Shapes (Generates at your feet)
+Spawn seamless structures without needing a selection grid: spheres (sphere, hsphere), cylinders (cyl, hcyl), and pyramids (pyramid, hpyramid).
+
+📋 Clipboard & History
+Cut, copy, and paste selections relative to your player orientation.
+Rotate (rot) structures in 90-degree increments or mirror them using the flip command.
+Full access to a robust /we undo and /we redo history system (customizable to track up to 200 actions).
+
+🌊 Terrain Tools
+Instantly clear out large bodies of water/lava (drain), fix broken liquid flows into solid source blocks (fixwater, fixlava), and smooth out rigid mountains (smooth).
