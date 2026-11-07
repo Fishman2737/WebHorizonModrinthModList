@@ -1,0 +1,7 @@
+A utility client for Horizon on Minecraft 26.3.
+
+153 modules across Combat, Movement, Player, Render, World and Client. ` or Right Shift opens the menu, left click turns a module on or off, right click opens its settings and bind. Chat commands start with . and .help lists them.
+
+Install: open the Horizon launcher once, unzip, then run install.ps1 (Windows) or install.sh (Linux/macOS). Running it again updates Sunset and keeps your settings and profiles.
+
+https://sunset-client.pages.dev
